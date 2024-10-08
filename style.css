@@ -1,0 +1,354 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+#modes{
+    
+    background-color: rgb(15, 23, 34);
+    width: 20vw;
+    height: 100vh;
+    float: left;
+}
+#calculator{
+    background-color: rgb(29, 41, 58);
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    min-height: 100vh; /* minimum height = screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 80px;
+    width: 75px;
+    background-color: rgb(54, 67,87);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.row{
+    margin-bottom: 10px;
+}
+#zero{
+    width: 160px;
+}
+#foot{
+    display: none;
+}
+#field{
+    width: 330px;
+    margin-bottom: 10px;
+    height: 70px;
+    text-align: right;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(29, 41, 58);
+
+}
+aside{
+    color: white;
+}
+.mode_container{
+    min-height: 90vh; /* minimum height = screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.option{
+    background-color: rgb(54, 67, 87);
+    width: 70px;
+    height: 75px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 12px;
+    
+
+}
+.mode_row{
+    display: flex;
+
+}
+i{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.active{
+    background-color: rgb(108, 99, 255);
+}
+#footer{
+    position: absolute;
+    bottom: 10px;
+    color: rgb(48, 54, 64);
+}
+@media screen and (max-width: 768px) {
+    .btn{
+        height: 60px;
+        width: 55px;
+    }
+    #zero{
+        width:120px ;
+    }
+    #field{
+        width: 250px;
+        margin-bottom: 8px;
+        height: 60px;
+        
+        font-size: 18px;
+        font-weight: bold;
+        
+    
+    }
+    .option{
+        
+        width: 55px;
+        height: 60px;
+        margin: 8px;
+        
+        border-radius: 10px;
+        
+    
+    }
+    i{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    #modes{
+        
+        width: 25vw;
+        
+    }
+    #calculator{
+       
+        width: 95vw;
+        height: 100vh;
+    }
+  }
+  @media screen and (max-width: 545px) {
+    .btn{
+        height: 60px;
+        width: 55px;
+    }
+    #zero{
+        width:120px ;
+    }
+    #field{
+        width: 250px;
+        margin-bottom: 8px;
+        height: 60px;
+        
+        font-size: 18px;
+        font-weight: bold;
+        
+    
+    }
+    .option{
+        
+        width: 55px;
+        height: 60px;
+        margin: 8px;
+        
+        border-radius: 10px;
+        
+    
+    }
+    i{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    #modes{
+        
+        width: 25vw;
+        visibility: hidden;
+        display: none;
+        
+    }
+    #calculator{
+       
+        width: 95vw;
+        height: 100vh;
+    }
+    #foot{
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        left: 100px;
+    }
+    body{
+        background-color: rgb(29, 41, 58);
+        color: rgb(48, 54, 64);
+        font-weight: bold;
+    }
+  }
+  @media screen and (max-width: 672px) {
+      #footer{
+            font-size: 13px;
+      }
+    .btn{
+        height: 70px;
+        width: 65px;
+    }
+    body{
+        background-color: rgb(29, 41, 58);
+    }
+    #zero{
+        width:145px ;
+        
+    }
+    #select{
+        font-size: 12px;
+    }
+    #field{
+        width: 250px;
+        margin-bottom: 8px;
+        height: 60px;
+        
+        font-size: 18px;
+        font-weight: bold;
+        
+    
+    }
+    .option{
+        
+        width: 55px;
+        height: 60px;
+        margin: 8px;
+        
+        border-radius: 10px;
+        
+    
+    }
+    i{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    #modes{
+        
+        width: 25vw;
+        
+    }
+    #calculator{
+       
+        width: 95vw;
+        height: 100vh;
+    }
+  }
+  @media screen and (max-width:930px) {
+    #footer{
+          font-size: 13px;
+    }
+  .btn{
+      height: 70px;
+      width: 65px;
+  }
+  body{
+      background-color: rgb(29, 41, 58);
+  }
+  #zero{
+      width:145px ;
+      
+  }
+  #select{
+      font-size: 12px;
+  }
+  #field{
+      width: 250px;
+      margin-bottom: 8px;
+      height: 60px;
+      
+      font-size: 18px;
+      font-weight: bold;
+      
+  
+  }
+  .option{
+      
+      width: 55px;
+      height: 60px;
+      margin: 8px;
+      
+      border-radius: 10px;
+      
+  
+  }
+  i{
+      margin-top: 15px;
+      font-size: 25px;
+  }
+  #modes{
+      
+      width: 25vw;
+      
+  }
+  #calculator{
+     
+      width: 95vw;
+      height: 100vh;
+  }
+}
+@media screen and (max-width: 322px) {
+    .btn{
+        height: 65px;
+        width: 60px;
+    }
+    #zero{
+        width:130px ;
+    }
+    #field{
+        width: 250px;
+        margin-bottom: 8px;
+        height: 60px;
+        
+        font-size: 18px;
+        font-weight: bold;
+        
+    
+    }
+    .option{
+        
+        width: 55px;
+        height: 60px;
+        margin: 8px;
+        
+        border-radius: 10px;
+        
+    
+    }
+    i{
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    #modes{
+        
+        width: 25vw;
+        visibility: hidden;
+        display: none;
+        
+    }
+    #calculator{
+       
+        width: 95vw;
+        height: 100vh;
+    }
+    #foot{
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        left: 100px;
+    }
+    body{
+        background-color: rgb(29, 41, 58);
+        color: rgb(48, 54, 64);
+        font-weight: bold;
+    }
+  }
