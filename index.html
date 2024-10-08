@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+<aside id="modes">
+    <div class="mode_container">
+    <h2 id="heading">Calculator</h2>
+    <p id="select">Select Your Calculator</p>
+    <div class="mode">
+        <div class="mode_row">
+            <div class="option active">
+                <i class="fa-solid fa-calculator"></i>
+            </div>
+            <div class="option in_active">
+                <i class="fa-solid fa-calendar"></i>
+            </div>
+        </div>
+        <div class="mode_row ">
+            <div class="option in_active">
+                <i class="fa-solid fa-scale-balanced"></i>
+            </div>
+            <div class="option in_active">
+                <i class="fa-solid fa-phone-volume"></i>
+            </div>
+        </div>
+        <div class="mode_row">
+            <div class="option in_active">
+                <i class="fa-solid fa-square-root-variable"></i>
+            </div>
+            <div class="option in_active">
+                <i class="fa-solid fa-square-poll-vertical"></i>
+            </div>
+        </div>
+    </div>
+    
+<p id="footer">Made By :- Saurabh <3 </p>
+</div>
+
+</aside>
+<div id="calculator">
+    <div class="container">
+        <div id="test-field">
+            <input type="text" id="field">
+        </div>
+        <div class="row">
+            <button class="btn">AC</button>
+            <button class="btn">00</button>
+            <button class="btn">%</button>
+            <button class="btn">/</button>
+        </div>
+        <div class="row">
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn">*</button>
+        </div>
+        <div class="row">
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">-</button>
+        </div>
+        <div class="row">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">+</button>
+        </div>
+        <div class="row" id="last_row">
+            <button class="btn" id="zero">0</button>
+            <button class="btn">.</button>
+            <button class="btn">=</button>
+            
+        </div>
+    </div>
+<footer id="foot">Made By:- Jashwanth Dasari </footer>
+</div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a3a640def6.js" crossorigin="anonymous"></script>
+</body>
+</html>
