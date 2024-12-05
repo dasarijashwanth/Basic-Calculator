@@ -12,7 +12,7 @@ Array.from(btn).forEach((btn)=>{
             calc = eval(calc);
             document.querySelector('input').value = calc;
 
-            
+             
         }
         else{
             calc = calc + event.target.innerHTML;
